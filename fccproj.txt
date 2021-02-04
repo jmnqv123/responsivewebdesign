@@ -1,0 +1,563 @@
+fcc-tribute:
+certificate:
+1.https://www.freecodecamp.org/certification/jaffarcp/responsive-web-design
+
+
+
+
+
+
+
+
+
+PROJECT1:
+
+<div id ="main">
+  <h1 id=" title "> King</h1>
+  <h2>No.1 fighter</h2>
+ <p> Tekken Wrestler</p>
+  <div id="img-div">
+<img id="image" src="https://i.pinimg.com/originals/a5/32/2f/a5322fb42fa78e22f50701dcfb0009a5.jpg" alt="King fighter" width="20%" height="20%">
+    
+    <figcaption id="img-caption">King has the best wrestler moves.</figcaption>
+    
+  </div>
+<p id= "img-caption">King one of the best in international fighting championship tournament</p>
+<p>The first King used to be a ruthless street brawling orphan with no care in the world except fighting. In one of his fights, King was grievously wounded and collapsed in front of a monastery. The Marquez priests saved him from death. After recovering, King realized the error of his ways and resolved to start a new life. He became a Catholic priest and renounced his old fighting ways. He then became a man with a mission; he dreamed of building an orphanage for street children, hoping to save them from becoming the kind of person he used to be.</p>
+<p id="tribute-info"> King is a character that has more of a defensive approach rather than a full blown offensive one, despite popular belief. King has to be played carefully since he has a limited range and is very unsafe. King relies on quick strikes, good movement, and a very good view on punishment. In game he is known for his speed and has an arsenal of over 200 moves in his command list. Being a professional wrestler with lucha libre influences, King has many powerful throws at his disposal, and has a lot of strong counterattacks.[10] King is notable for his chain throws, which he's had since Tekken 2, when he was one of the very few characters to have them. He also utilizes duck throws, ground throws and air throws, uncommon for characters in the Tekken series.As of Tekken 5, King seems to have drawn more wrestler-inspired moves into his repertoire, especially from superstars employed by the world-famous World Wrestling Entertainment (WWE). For example, he has a stunner used by Stone Cold Steve Austin and a version of The Rock's People's Elbow and Rock Bottom. Additionally, King has been able to perform the Sharpshooter innovated by Riki Choshu, later used by Bret Hart and the Tombstone Piledriver made famous by Dynamite Kid, later used by The Undertaker and Kane since Tekken 2. One of his victory poses has him side-stepping in a manner characteristic of the original Tiger Mask. King is also seen in the opening FMV of Tekken 5 performing a tiger feint after being thrown across the wrestling ring by Craig Marduk, in order to prevent a collision to the outside of the ring. The maneuver is currently a trademark move of Rey Mysterio, although the original Tiger Mask pioneered its use during matches with the Dynamite Kid in the early 1980s. Other moves he uses include the Frankensteiner and Steiner Screwdriver made famous by Scott Steiner and Kenta Kobashi's Burning Hammer. Finally, King's Muscle Buster pays homage to Suguru Kinniku's "Kinniku Buster", which is also a finishing move of wrestler Samoa Joe.</p>
+<a href= "https://en.wikipedia.org/wiki/King_(Tekken)" target= "_blank"id="tribute-link" > For Further Information </a>
+in css:
+#img-caption{
+  width:400px;
+  
+}
+#image{
+  max-width:100%;
+  height:auto;
+  display:block;
+  
+}
+
+2.survey:
+<h1 id="title">Car model purchase</h1>
+<p id="description">Fill details below to complete your car order</p>
+<form id="survey-form">
+ <div class= "input-headings">
+  <label for="name" id="name-label"> Name</label>
+  <input id="name" type="text" name="name" placeholder="Elon musk" class="form-inputs"required> </input>
+<br>
+<label for="email" id="email-label">Email </label>
+<input id="email" type="email" name="email" placeholder:"elonmusk@tesla.com" class="form-inputs"required>
+</input>
+<br>
+<label for="number" id="number-label">Age </label>
+<input id="number" type="number" name="number" placeholder="18" min="18" max="100" class="form-inputs" required </input>
+<br>
+<label for="dropdown" id="model"> Select model</label>
+<select id="dropdown"class="form-inputs" >
+  <option value="Model a"> Model_ a</option>
+  <option value="Model b"> Model _b</option>
+  <option value="Model c"> Model _c</option>
+  <option value="Model d"> Model _d</option>
+  <option value="Model e"> Model_ e</option>
+  <br>
+  <br>
+  
+  <label for="model_color" id="model_color"> <b> Model color: </b> </label> 
+  <br>
+  <br>
+ 
+  
+ <input id="model_color" type="radio" id="black" name="color" value="black">
+  <label for="model_color">Black</label>
+  
+  <input id="model_color" type="radio" id="white" name="color" value="white">
+  <label for="model_color">White</label>
+  
+  <input id="model_color" type="radio" id="red" name="color" value="red">
+  <label for="model_color">Red</label>
+  <labelfor="features"><b>Add features: </b> </label>
+  <br>
+  <inputid="checkbox" type="checkbox" name="features" value="autopilot">
+    <labelfor="checkbox"> Full Self-Driving Autopilot-
+      $10,000 </label>
+    <br>
+     <inputid="checkbox" type="checkbox" name="features" value="battery">
+    <labelfor="checkbox"> Performance plus (battery enhanced)-
+      $7,500 </label>
+       <br>
+        <inputid="checkbox" type="checkbox" name="features" value="dualmotor">
+          <labelfor="checkbox"> Dual motor-All wheel drive</label>
+      $9,000 </label>
+  <br>
+  <br>
+       <labelid="textarea"> Additional Comments</label>
+       <br>
+       <textarea id="textarea" name="instructions" rows="5"
+                 col="40">
+         
+         
+       </textarea>
+       <br>
+       
+       <inputid="submit" type="submit" value="Place order" class=submit-button>
+       
+       
+       
+         </div> 
+       </form>
+  </select>
+  
+ </form>
+in css:
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+body{
+  font-family: 'Poppins';
+  line-height: 1.4;
+ background-color: #D7DCDD;
+  width: 500px;
+  margin:auto;
+}
+form{
+  background: rgb(147,5,5,0.2);
+  padding:2.5 rem 2.5 rem;
+  border-radius:2rem;
+  width:500px;
+  margin:auto;
+    
+}
+.submit-button{
+  width:100%;
+  padding:0.75rem;
+  background:red;
+  color:white;
+  border-radius:2px;
+  cursor:pointer;
+  
+  
+  
+}
+>input-headings {
+  margin:0 auto 1.25rem auto;
+  padding:0.25rem;
+  
+}
+.form-inputs{
+  display:block;
+  width: 50%;
+  height:2rem;
+  padding:0.25rem 0.75rem;
+  background-color:#fff;
+  border:1px solid #ced4da;
+  border-radius:0.25rem;
+}
+
+
+
+3rd:
+<headerid="header">
+  <h1><u>         </u></h1>
+ <h1><u> best-digi/virtualproducts       </u></h1>
+  <img
+      src="https://image.freepik.com/free-vector/golden-bird-logo-design_1195-336.jpg"
+       alt="bp-logo"
+       border="0"
+       id="header-img"
+       width="100px";
+       >
+  <nav id="nav-bar">
+    <h1> <u> top of the line </u> &nbsp;&nbsp;&nbsp;
+       <a class="nav-link" href=*#portfolio*>Portfolio</a>&nbsp;&nbsp;&nbsp;
+      <a class="nav-link" href=*#shop*>Shop</a>&nbsp;&nbsp;&nbsp;
+      <a class="nav-link" href=*#my story*>My Story</a>&nbsp;&nbsp;&nbsp;
+    </h1>
+  </nav>
+  <ul>
+    <li><a href="#digital-products">Digital products</a><li>
+  </header>
+<body>
+  <section id="shop"
+           </section> 
+  <section id="Portfolio"
+           </section> 
+  <section id="My Story"
+           <div id="storylayover" align="left" style="width:100%";
+            overflow: hidden">
+ <iframe 
+   id="video"
+   width="560"
+   height="315"
+   align="right"
+   src="https://youtu.be/KyfnoUUgsBM"
+   frameborder="0"
+   allow="accelerometer;autoplay; encrypted-media;gyroscope;  picture-in-picture"
+         allowfullscreen</iframe>
+  
+  <div class="sign-up-page">
+    <form class="sign-up-form" action="https://www.freecodecamp.com/email-submit">
+      <h1>sign up here</h1>
+      <label>Email address
+      <input type="email"/>
+      </label>
+      <div>
+        <input type="submit"/>
+      </div>
+      <div class="digital products">
+        
+  </div>
+
+
+           </section> 
+</body>
+  <footer>
+    
+     in css:
+header{
+  width:100%;
+  display:flex;
+  align-items:center;
+  position:fixed;
+}
+
+
+nav{
+  width:100%;
+}
+
+.sign-up-page{
+  height:300px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  
+}
+sign-up-form{
+  text-align:center;
+}
+
+.videopage{
+  height:500px;
+  display:flex;
+  justify-content:center;
+  align-content:center;
+}
+
+.video{
+  text-align:center;
+}
+
+.digital-products{
+  height:600px;
+  background-image:url("https://png.pngtree.com/thumb_back/fh260/back_our/20190620/ourmid/pngtree-blue-sci-fi-blue-digital-product-psd-layered-main-picture-image_169482.jpg");
+}
+
+@media only screen and (max-width:600px) {
+  nav{
+    display:none;
+  }
+}
+ 
+ tech-doc-pg:
+<div class="main-body"></div>
+<nav id="navbar">
+ <header>java documentation</header>
+  <a href="Preamble" class="nav-link">Preamble</a>
+  <a href="Java" class="nav-link">Java</a>
+<a href="Chapter 1" class="nav-link">Chapter 1</a>
+  <a href="Chapter 2" class="nav-link">Chapter 2</a>
+  <a href="Chapter 3" class="nav-link">Chapter 3</a>
+<main id="main-doc">
+  <section class="main-section" id="Preamble"></section>
+  <header>Preamble/intro </header>
+  <p>Java is a class-based, object-oriented programming language that is designed to have as few implementation dependencies as possible. It is a general-purpose programming language intended to let application developers write once, run anywhere (WORA), meaning that compiled Java code can run on all platforms that support Java without the need for recompilation. Java applications are typically compiled to bytecode that can run on any Java virtual machine (JVM) regardless of the underlying computer architecture. The syntax of Java is similar to C and C++, but has fewer low-level facilities than either of them. The Java runtime provides dynamic capabilities (such as reflection and runtime code modification) that are typically not available in traditional compiled languages. As of 2019, Java was one of the most popular programming languages in use according to GitHub,[20] particularly for client-server web applications.</p>
+  <p>It must be simple, object-oriented, and familiar.
+It must be robust and secure.
+It must be architecture-neutral and portable.
+It must execute with high performance.
+    It must be interpreted, threaded, and dynamic.</p>
+  
+  <section class="main-section" id="Java"></section>
+  <header>Java </header>
+  <p>One design goal of Java is portability, which means that programs written for the Java platform must run similarly on any combination of hardware and operating system with adequate run time support. This is achieved by compiling the Java language code to an intermediate representation called Java bytecode, instead of directly to architecture-specific machine code. Java bytecode instructions are analogous to machine code, but they are intended to be executed by a virtual machine (VM) written specifically for the host hardware. End users commonly use a Java Runtime Environment (JRE) installed on their machine for standalone Java applications, or in a web browser for Java applets.
+Standard libraries provide a generic way to access host-specific features such as graphics, threading, and networking.</p>
+  <code>
+    public class HelloWorldApp {
+    public static void main(String[] args) {
+        System.out.println("Hello World!"); // Prints the string to the console.
+    }
+    }</code>
+  <ul>
+    <li>concept 1</li>
+    <li>example 2</li>
+    <li>example 3</li>
+    <li>example 4</li>
+    <li>example 5</li>
+  </ul>
+  
+  <section class="main-section"id="Chapter 1"  ></section>
+  <header> chapter 1: </header>
+  <p>The syntax of Java is largely influenced by C++ and C. Unlike C++, which combines the syntax for structured, generic, and object-oriented programming, Java was built almost exclusively as an object-oriented language.[18] All code is written inside classes, and every data item is an object, with the exception of the primitive data types, (i.e. integers, floating-point numbers, boolean values, and characters), which are not objects for performance reasons. Java reuses some popular aspects of C++ (such as the printf method).
+
+Unlike C++, Java does not support operator overloading[56] or multiple inheritance for classes, though multiple inheritance is supported for interfaces.
+Java uses comments similar to those of C++. There are three different styles of comments: a single line style marked with two slashes (//), a multiple line style opened with /* and closed with */, and the Javadoc commenting style opened with /** and closed with */. The Javadoc style of commenting allows the user to run the Javadoc executable to create documentation for the program and can be read by some integrated development environments (IDEs) such as Eclipse to allow developers to access documentation within the IDE.</p>
+  <code>
+    import java.util.Scanner;
+
+public class HelloWorld {
+
+    public static void main(String[] args) {
+
+        // Creates a reader instance which takes
+        // input from standard input - keyboard
+        Scanner reader = new Scanner(System.in);
+        System.out.print("Enter a number: ");
+
+        // nextInt() reads the next integer from the keyboard
+        int number = reader.nextInt();
+
+        // println() prints the following line to the output screen
+        System.out.println("You entered: " + number);
+    }
+    }</code>
+  <section class="main-section" id="Chapter 2"></section>
+  <header> chapter 2:</header>
+  <p>Programs written in Java have a reputation for being slower and requiring more memory than those written in C++ .[47][48] However, Java programs' execution speed improved significantly with the introduction of just-in-time compilation in 1997/1998 for Java 1.1,[49] the addition of language features supporting better code analysis (such as inner classes, the StringBuilder class, optional assertions, etc.), and optimizations in the Java virtual machine, such as HotSpot becoming the default for Sun's JVM in 2000. With Java 1.5, the performance was improved with the addition of the java.util.concurrent package, including lock free implementations of the ConcurrentMaps and other multi-core collections, and it was improved further with Java 1.6.
+  </p>
+  <code>
+    public class AddTwoIntegers {
+
+    public static void main(String[] args) {
+        
+        int first = 10;
+        int second = 20;
+
+        System.out.println("Enter two numbers: " + first + " " + second);
+        int sum = first + second;
+
+        System.out.println("The sum is: " + sum);
+    }
+    }</code>
+  <section class="main-section" id="Chapter 3" ></section>
+  <header<chapter 3:</header>
+  <p>The core libraries, which include:
+IO/NIO
+Networking (NOTE: new HTTP Client since Java 11)
+Reflection
+Concurrency
+Generics
+Scripting/Compiler
+Functional programming (Lambda, Streaming)
+Collection libraries that implement data structures such as lists, dictionaries, trees, sets, queues and double-ended queue, 
+  </main>
+  </div>
+in-css:
+div.main-body{
+  display:grid;
+  grid-template-columns: minmax(300px, auto) 1fr;
+  grid-template-areas:"navbar mainContent"
+   grid-gap:20px;
+    
+}
+nav#navbar{
+  grid-area: navbar;
+  position:fixed;
+}
+nav#navbar a{
+  display:block;
+  border: 1px solid green;
+  padding:5px;
+    margin:10px 0;
+  text-decoration: none;
+  color:blue;
+}
+main#main-doc{
+  grid-area:mainContent;
+}
+
+header{
+  font-size: 1.5 em;
+  font-weight:bold;
+  
+}
+code{
+  background-color:#CCC;
+  display:block;
+  padding:20px;
+}
+@media screen and(max-width:750px){
+  div.main-body{
+    grid-template-columns: 1fr;
+    grid-template-areas: "navbar" "mainContent";
+    
+  }
+  nav#navbar{
+    position:inherit;
+  }
+}       
+   
+4rth-Personal portfolio:
+<divclass="topnav">
+  <nav id="navbar">
+    <u1>
+      <a id="link1" class="nav-link" href="#welcome">About</a>
+      <a id="link1" class="nav-link" href="#personalprojects">Personal-projects</a>
+      <a id="link1" class="nav-link" href="#contacts">Contacts</a>
+    </u1>
+<section id="welcome-section">
+  <div class="welcome-text">
+    <h1>Hey, codeking</h1>
+    <h2> webdevelopment</h2>
+  </div>
+  </section>
+    <section id="projects">
+      <div class="projects">
+        <div a class="project-tile" href="https://codepen.io/freeCodeCamp/pen/MJjpwO" target="_blank">
+          Tributepage</a></div>
+        
+        <div a class="project-tile" href="https://codepen.io/freeCodeCamp/pen/ONvppqo" target="_blank">
+          Survey form project</a></div>
+    </div>
+  </section>
+
+      
+<section id="projects">
+      <div class="projects">
+        <div a class="project-tile" href="https://codepen.io/freeCodeCamp/pen/MJjpwO" target="_blank">
+         Product landing page</a></div>
+        
+        <div a class="project-tile" href="https://codepen.io/freeCodeCamp/pen/ONvppqo" target="_blank">
+          Technical documentation page</a></div>
+    </div>
+  </section>
+<section id="contact-section">
+  <div class="contact-section" id="contact">
+    <h1>Here's my contact info</h1>
+    <h2><a id="profile-link" href="https://"codepen.io/jmnqv" target="_blank">Codepen profile</a></h2>
+    <h2><a id="profile-link" href="https://"facebook.com/jmnqv" target="_blank">Codepen profile2</a></h2> 
+  </div>
+</section>
+  
+
+in css:
+body{font-family:sans-serif;
+      background-color:#ff317a;
+}
+nav-bar{
+  width:100%;
+  background-color:#1a1a1a;
+  overflow:hidden;
+  position:fixed;
+}
+#nav-bar a{
+  float:right;
+  margin:auto;
+  color:#f2f2f2;
+  text-align:center;
+  padding:16px 20px;
+  text-decoration:none;
+  font-size:18px;
+  transition:background .5s ease,color .5sease;
+}
+
+#nav-bar a:hover{
+  background-color:#ff671a;
+  color:black;
+}
+#nav-bar a:active{
+  background-color:#ff671a;
+  color:white;
+}
+#welcome-section{
+  height:100vh;
+  width:100%;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  background-image:linear-gradient(to bottom left;#1a1a1a;#333333);
+  margin-bottom:40px;
+}
+h1{
+  font-size:40px;
+}
+h2{
+  font-weight:200;
+  text-align:center;
+  font-size:20px;
+  color:#ff671a;
+  font-style:italic;
+  text-decoration:none;
+  
+}
+div.projects{
+  display:flex;
+  justify-content:center;
+  text-align:center;
+  margin-top:100px;
+  margin-bottom:100px;
+}
+.project-tile{
+  margin:auto;
+  border:none;
+  background-color:#1a1a1a;
+  text-decoration:none;
+  padding:10px;
+  width:40px;
+  transition:background 1s ease;padding 4s ease;
+  cursor:pointer;
+  font-size:25px;
+  margin:40px;
+}
+.project-tile:hover{
+  padding:20px;
+  box-shadow:0px 0px 20px #1a1a1a;
+}
+a:hover{
+  text-decoration:none;
+  color:#ff671a;
+}
+a:visited{
+  color:#ff671a;
+}
+a{
+  color:#ff671a;
+  text-decoration:none;
+}
+#contact-section{
+  height:100vh;
+  width:100%;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  background-image:linear-gradient(to bottom left;#1a1a1a;#333333);
+  margin-bottom:40px;
+}
+@media screen and(max-width:600px){
+  #nav-bar:{position:fixed;
+}
+      
+         
+         
+         
+         
+         
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    
+    
+    
